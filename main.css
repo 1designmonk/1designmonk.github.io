@@ -1,4 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:wght@200&display=swap');
 body {
     /*CSS GOES HERE*/
-    background-color: bisque;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12pt;
+    color: bisque;
+    text-align:center;
+    padding: 30pt;
+}
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px red
+}
+a:link,
+a:visited{
+    color: rgb(20, 79, 96);
+    text-decoration: none;
+    background-color: antiquewhite;
+
+}
+img{
+    margin: 10pt;
+}
+img:hover{
+    filter:invert();
 }
